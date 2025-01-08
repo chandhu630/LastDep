@@ -1,8 +1,5 @@
 [build]
-  base = "" # Leave empty or set to your subdirectory like "backend"
-  command = "npm install && npm run build"
-  publish = "" # Leave empty for serverless apps
-  functions = "netlify/functions"
+  functions = "netlify/functions"  # This should point to the correct directory
 
 [[redirects]]
   from = "/*"
